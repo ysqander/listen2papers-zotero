@@ -14,7 +14,7 @@ if (typeof globalThis.Services !== 'undefined') {
 var listen2papersPlugin = {
   id: 'listen2papers@listen2papers.com',
   menuId: 'listen2papers-send-to-listen2papers',
-  menuLabel: 'Listen in listen2papers',
+  menuLabel: 'Listen to this paper',
   maxUploadBytes: 25 * 1024 * 1024,
   registeredMenuId: null,
   fallbackMenuItem: null,

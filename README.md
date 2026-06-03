@@ -1,12 +1,30 @@
-# listen2papers for Zotero
+# Listen to papers from your Zotero library
 
-Send selected Zotero PDFs to listen2papers from inside Zotero Desktop.
+This open-source Zotero desktop plugin turns a selected local PDF attachment
+into structured audio, reading guides, and a saved reader page. It is built for
+researchers, students, and knowledge workers who keep papers in Zotero but want
+a better way to listen while walking, commuting, or reviewing dense material.
 
-This plugin adds a `Listen in listen2papers` command to Zotero's item context
-menu. It uploads one selected local PDF attachment to your listen2papers account
-and opens the created document in the listen2papers web reader.
+The plugin uses [listen2papers.com](https://listen2papers.com) to process the
+selected paper and create the audio/reader page. You do not need to sync your
+whole Zotero account or upload your library. The plugin only acts on the paper
+you explicitly choose.
 
 ![listen2papers for Zotero workflow](assets/zotero-plugin-workflow.png)
+
+## What It Does
+
+- Adds a `Listen to this paper` command to Zotero Desktop.
+- Works with one selected Zotero item or PDF attachment at a time.
+- Uses a local PDF attachment from Zotero Desktop.
+- Creates structured paper audio, reading guides, and a web reader page.
+- Opens the created reader page in the browser after upload.
+- Sends title, DOI, URL, Zotero item key, attachment key, library id, and author
+  metadata when available.
+- Validates the configured listen2papers API URL before reading or uploading the
+  selected local PDF.
+- Checks Zotero's local file size metadata before upload when available and
+  alerts locally for PDFs over the 25 MB plugin upload limit.
 
 ## Install
 
@@ -25,8 +43,8 @@ and opens the created document in the listen2papers web reader.
 
 1. Select one Zotero item with a local PDF attachment.
 2. Right-click the item.
-3. Choose `Listen in listen2papers`.
-4. The plugin uploads the PDF and opens the listen2papers reader.
+3. Choose `Listen to this paper`.
+4. The plugin uploads the PDF and opens the generated audio/reader page.
 
 ## Compatibility
 
@@ -45,11 +63,28 @@ Runtime evidence before the public `v0.1.0` release:
 Zotero plugins run with local desktop privileges. Only install XPI files from
 trusted release channels.
 
-This plugin reads the selected local PDF attachment and sends it to
-`https://listen2papers.com` with Zotero metadata such as title, DOI, URL,
-library id, item key, attachment key, and authors when available. Authentication
-uses a scoped bearer token created in listen2papers Settings. The server stores
-only a hash of that token, and you can revoke the token from Settings.
+This plugin reads only the selected local PDF attachment after the API URL and
+token pass validation. It does not sync your Zotero account or upload your full
+Zotero library. It sends the PDF to `https://listen2papers.com` with Zotero
+metadata such as title, DOI, URL, library id, item key, attachment key, and
+authors when available.
+
+Authentication uses a scoped bearer token created in listen2papers Settings,
+not your listen2papers password. The server stores only a hash of that token,
+and you can revoke the token from Settings.
+
+## Who Built This
+
+I am Alexander Adamov, a solo builder in Berlin working on applied AI tools for
+research and knowledge work. listen2papers is my product for turning academic
+papers and PDFs into structured, listenable audio without flattening them into
+generic summaries.
+
+## Positioning
+
+Zotero 9 includes built-in Read Aloud for quick local playback. This plugin is
+for users who want paper-aware audio, reading guides, saved progress, and a
+reader page that can continue outside Zotero.
 
 ## Updates
 
