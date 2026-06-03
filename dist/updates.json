@@ -5,7 +5,7 @@
         {
           "version": "0.1.0",
           "update_link": "https://listen2papers.com/zotero/listen2papers-zotero.xpi",
-          "update_hash": "sha256:d8aac24c059af946335404009dc9fa4c9a506bfb25c7c5567f48b31b7b5d9b1a",
+          "update_hash": "sha256:2f84c8d0bd25eba8617ff250491dc2d5719493a50333441637b4b4360490624a",
           "applications": {
             "zotero": {
               "strict_min_version": "7.0",

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "listen2papers for Zotero",
   "version": "0.1.0",
-  "description": "Turn selected Zotero PDFs into structured audio and reading guides.",
+  "description": "Turn selected Zotero PDFs into audio with read-along text.",
   "homepage_url": "https://listen2papers.com/zotero",
   "applications": {
     "zotero": {

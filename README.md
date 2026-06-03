@@ -1,14 +1,15 @@
 # Listen to papers from your Zotero library
 
 This open-source Zotero desktop plugin turns a selected local PDF attachment
-into structured audio, reading guides, and a saved reader page. It is built for
-researchers, students, and knowledge workers who keep papers in Zotero but want
-a better way to listen while walking, commuting, or reviewing dense material.
+into paper audio with read-along text, saved progress, and a reader page you
+can continue on the web or in the iOS app. It is built for researchers,
+students, and knowledge workers who keep papers in Zotero but want a better way
+to listen while walking, commuting, or reviewing dense material.
 
 The plugin uses [listen2papers.com](https://listen2papers.com) to process the
-selected paper and create the audio/reader page. You do not need to sync your
-whole Zotero account or upload your library. The plugin only acts on the paper
-you explicitly choose.
+selected paper and create the audio/read-along page. You do not need to sync
+your whole Zotero account or upload your library. The plugin only acts on the
+paper you explicitly choose.
 
 ![listen2papers for Zotero workflow](assets/zotero-plugin-workflow.png)
 
@@ -17,7 +18,8 @@ you explicitly choose.
 - Adds a `Listen to this paper` command to Zotero Desktop.
 - Works with one selected Zotero item or PDF attachment at a time.
 - Uses a local PDF attachment from Zotero Desktop.
-- Creates structured paper audio, reading guides, and a web reader page.
+- Creates paper audio with synchronized read-along text.
+- Opens a saved reader page you can continue on the web or in the iOS app.
 - Opens the created reader page in the browser after upload.
 - Sends title, DOI, URL, Zotero item key, attachment key, library id, and author
   metadata when available.
@@ -77,14 +79,14 @@ and you can revoke the token from Settings.
 
 I am Alexander Adamov, a solo builder in Berlin working on applied AI tools for
 research and knowledge work. listen2papers is my product for turning academic
-papers and PDFs into structured, listenable audio without flattening them into
-generic summaries.
+papers and PDFs into listenable audio with read-along text, saved progress, and
+an iOS app for listening on the go.
 
 ## Positioning
 
 Zotero 9 includes built-in Read Aloud for quick local playback. This plugin is
-for users who want paper-aware audio, reading guides, saved progress, and a
-reader page that can continue outside Zotero.
+for users who want paper-aware audio, synchronized read-along text, saved
+progress, and an iOS app for listening outside Zotero.
 
 ## Updates
 

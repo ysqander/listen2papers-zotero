@@ -2,7 +2,7 @@
   "name": "listen2papers-zotero",
   "version": "0.1.0",
   "private": true,
-  "description": "Zotero Desktop plugin for turning selected PDFs into structured audio and reading guides.",
+  "description": "Zotero Desktop plugin for turning selected PDFs into audio with read-along text.",
   "type": "module",
   "scripts": {
     "package": "node scripts/package.mjs"
