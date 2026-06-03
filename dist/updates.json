@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "listen2papers@listen2papers.com": {
+      "updates": [
+        {
+          "version": "0.1.0",
+          "update_link": "https://listen2papers.com/zotero/listen2papers-zotero.xpi",
+          "update_hash": "sha256:96242198429f1a4da89be9522e4f47ee34c3a67e291078cb72cf628eff488472",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "7.0",
+              "strict_max_version": "9.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

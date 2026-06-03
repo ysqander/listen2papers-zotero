@@ -1,0 +1,11 @@
+{
+  "name": "listen2papers-zotero",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zotero Desktop plugin for sending selected PDFs to listen2papers.",
+  "type": "module",
+  "scripts": {
+    "package": "node scripts/package.mjs"
+  }
+}
+
