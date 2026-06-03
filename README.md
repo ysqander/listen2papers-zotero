@@ -7,7 +7,8 @@ students, and knowledge workers who keep papers in Zotero but want a better way
 to listen while walking, commuting, or reviewing dense material.
 
 The plugin uses [listen2papers.com](https://listen2papers.com) to process the
-selected paper and create the audio/read-along page. You do not need to sync
+selected paper and create the audio/read-along page. There is a free tier for
+roughly 5-10 papers per month, depending on paper size. You do not need to sync
 your whole Zotero account or upload your library. The plugin only acts on the
 paper you explicitly choose.
 
